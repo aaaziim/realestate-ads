@@ -8,8 +8,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [
-    daisyui
-  ],
+  plugins: [daisyui],
+  daisyui: {
+    themes: ["aqua", "emerald"], // Enables both light and dark themes
+  },
 }
 
