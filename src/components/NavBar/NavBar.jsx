@@ -9,15 +9,24 @@ const NavBar = () => {
         </div>
         <div>
         <div className="form-control relative">
-    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-    <FaSearch className="absolute right-3 top-4 text-cyan-200 " />
+        <form className="max-w-lg mx-auto">
+    <div className="flex">
+        
+        <div className="relative w-full">
+            <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-full border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search Anything You Need" required />
+            <button type="submit" className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-e-full border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <FaSearch></FaSearch> 
+            </button>
+        </div>
+    </div>
+</form>
   </div>
         </div>
         <div className="flex-none gap-2">
           <div className="dropdown dropdown-end">
     <div tabIndex={0} role="button">
       <div className="">
-      <FaUserAlt className="bg-white h-10 w-10 p-2 rounded-full text-black" />
+      <FaUserAlt className="bg-amber-100 h-10 w-10 p-2 rounded-full text-black" />
       </div>
     </div>
     <ul

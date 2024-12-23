@@ -10,7 +10,7 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["aqua", "emerald"], // Enables both light and dark themes
+    themes: ["light", "dark"], // Enables both light and dark themes
   },
 }
 
