@@ -1,50 +1,43 @@
-import { FaUserAlt } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 const NavBar = () => {
-  return (
-      <div className="navbar justify-between  shadow-xl">
-        <div >
-  <Link className="btn btn-ghost text-xl" to="/">AAA Estate</Link>
-        </div>
+    return (
         <div>
-        <div className="form-control relative">
-        <form className="max-w-lg mx-auto">
-    <div className="flex">
-        
-        <div className="relative w-full">
-            <input type="search" id="search-dropdown" className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-full border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search Anything You Need" required />
-            <button type="submit" className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-e-full border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                <FaSearch></FaSearch> 
-            </button>
+            <header className="p-4 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container flex justify-between h-16 mx-auto">
+		<NavLink to="/" aria-label="Back to homepage" className="flex items-center p-2">
+			AAA Estate
+		</NavLink>
+		<ul className="items-stretch hidden space-x-3 md:flex">
+			<li className="flex">
+				<NavLink to="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Home</NavLink>
+			</li>
+			<li className="flex">
+				<NavLink to="/allestates" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">All Estates</NavLink>
+			</li>
+			<li className="flex">
+				<NavLink to="/profile" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Profile</NavLink>
+			</li>
+			<li className="flex">
+				<NavLink to="/updateprofile" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Update Profile</NavLink>
+			</li>
+			<li className="flex">
+				<NavLink to="/login" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Sign In</NavLink>
+			</li>
+			<li className="flex">
+				<NavLink to="/register" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Sign Up</NavLink>
+			</li>
+		</ul>
+		<button className="flex justify-end p-4 md:hidden">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
+				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+	</div>
+</header>
         </div>
-    </div>
-</form>
-  </div>
-        </div>
-        <div className="flex-none gap-2">
-          <div className="dropdown dropdown-end">
-    <div tabIndex={0} role="button">
-      <div className="">
-      <FaUserAlt className="bg-amber-100 h-10 w-10 p-2 rounded-full text-black" />
-      </div>
-    </div>
-    <ul
-      tabIndex={0}
-      className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-      <li>
-        <a className="justify-between">
-          Profile
-          <span className="badge">New</span>
-        </a>
-      </li>
-      <li><a>Settings</a></li>
-      <li><a>Logout</a></li>
-    </ul>
-          </div>
-        </div>
-</div>
-  );
+    );
 };
 
 export default NavBar;
