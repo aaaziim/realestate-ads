@@ -21,7 +21,7 @@
         "home theater",
         "gym"
       ],
-      "featured_image": "https://example.com/images/oceanfront-penthouse.jpg",
+      "featured_image": "https://raw.githubusercontent.com/aaaziim/realestate-ads/refs/heads/main/src/assets/images/a1.webp",
       "image_gallery": [
         "https://example.com/images/oceanfront-penthouse1.jpg",
         "https://example.com/images/oceanfront-penthouse2.jpg",
@@ -55,7 +55,7 @@
         "spa",
         "outdoor lounge"
       ],
-      "featured_image": "https://example.com/images/private-island.jpg",
+      "featured_image": "https://raw.githubusercontent.com/aaaziim/realestate-ads/refs/heads/main/src/assets/images/a2.webp",
       "image_gallery": [
         "https://example.com/images/private-island1.jpg",
         "https://example.com/images/private-island2.jpg",
@@ -89,7 +89,7 @@
         "wine cellar",
         "home theater"
       ],
-      "featured_image": "https://example.com/images/malibu-villa.jpg",
+      "featured_image": "https://raw.githubusercontent.com/aaaziim/realestate-ads/refs/heads/main/src/assets/images/a3.webp",
       "image_gallery": [
         "https://example.com/images/malibu-villa1.jpg",
         "https://example.com/images/malibu-villa2.jpg",
@@ -123,7 +123,7 @@
         "spa",
         "gym"
       ],
-      "featured_image": "https://example.com/images/aspen-resort.jpg",
+      "featured_image": "https://raw.githubusercontent.com/aaaziim/realestate-ads/refs/heads/main/src/assets/images/a4.jpeg",
       "image_gallery": [
         "https://example.com/images/aspen-resort1.jpg",
         "https://example.com/images/aspen-resort2.jpg",
@@ -158,7 +158,7 @@
         "gym",
         "tennis court"
       ],
-      "featured_image": "https://example.com/images/beverly-hills-mansion.jpg",
+      "featured_image": "https://raw.githubusercontent.com/aaaziim/realestate-ads/refs/heads/main/src/assets/images/a5.jpeg",
       "image_gallery": [
         "https://example.com/images/beverly-hills-mansion1.jpg",
         "https://example.com/images/beverly-hills-mansion2.jpg",

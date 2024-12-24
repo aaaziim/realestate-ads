@@ -7,6 +7,7 @@ import Profile from "../../pages/Profile/Profile"
 import UpdateProfile from "../../pages/Profile/UpdateProfile"
 import SignIn from "../../pages/SignIn/SignIn"
 import SignUp from "../../pages/SignUp/SignUp"
+import DetailsPage from "../../pages/DetailsPage/DetailsPage";
 const RouterPaths = () => {
 
 const routes = createBrowserRouter([
@@ -23,6 +24,10 @@ const routes = createBrowserRouter([
             {
                 path: "/allestates",
                 element: <AllEstates></AllEstates>
+            },
+            {
+                path: "/estate/:id",
+                element: <DetailsPage></DetailsPage>
             },
             {
                 path: "/profile",

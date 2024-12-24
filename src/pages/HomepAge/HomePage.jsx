@@ -5,7 +5,6 @@ const HomePage = () => {
 
 	const estates = useLoaderData();
 	
-console.log(estates)
 return (
 <div>
 {/* Banner */}
