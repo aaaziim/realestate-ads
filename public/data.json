@@ -1,0 +1,176 @@
+[
+    {
+      "id": "1",
+      "estate_title": "Oceanfront Penthouse with Stunning Views",
+      "category": "Penthouse",
+      "description": "This luxurious penthouse offers panoramic ocean views, a private terrace, and an open-concept living space. Ideal for those who enjoy high-end living with a touch of sophistication.",
+      "price": "$15,000,000",
+      "status": "sale",
+      "area": "3500 sq ft",
+      "location": {
+        "address": "123 Ocean View Drive",
+        "state": "California",
+        "zip": "90265",
+        "area": "Malibu"
+      },
+      "facilities": [
+        "living room",
+        "swimming pool",
+        "kitchen",
+        "private terrace",
+        "home theater",
+        "gym"
+      ],
+      "featured_image": "https://example.com/images/oceanfront-penthouse.jpg",
+      "image_gallery": [
+        "https://example.com/images/oceanfront-penthouse1.jpg",
+        "https://example.com/images/oceanfront-penthouse2.jpg",
+        "https://example.com/images/oceanfront-penthouse3.jpg"
+      ],
+      "post_author": {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "phone": "+1 (123) 456-7890"
+      }
+    },
+    {
+      "id": "2",
+      "estate_title": "Private Island Retreat",
+      "category": "Private Island",
+      "description": "An exclusive private island with white sandy beaches, crystal-clear waters, and a stunning villa. Perfect for complete seclusion and ultimate luxury living.",
+      "price": "$50,000,000",
+      "status": "sale",
+      "area": "5000 sq ft",
+      "location": {
+        "address": "Uncharted Island",
+        "state": "Maldives",
+        "zip": "00000",
+        "area": "Maldives"
+      },
+      "facilities": [
+        "living room",
+        "swimming pool",
+        "kitchen",
+        "private beach",
+        "spa",
+        "outdoor lounge"
+      ],
+      "featured_image": "https://example.com/images/private-island.jpg",
+      "image_gallery": [
+        "https://example.com/images/private-island1.jpg",
+        "https://example.com/images/private-island2.jpg",
+        "https://example.com/images/private-island3.jpg"
+      ],
+      "post_author": {
+        "name": "Alice Smith",
+        "email": "alicesmith@example.com",
+        "phone": "+1 (987) 654-3210"
+      }
+    },
+    {
+      "id": "3",
+      "estate_title": "Beachfront Villa in Malibu",
+      "category": "Villas",
+      "description": "A spectacular beachfront villa featuring a sprawling lawn, modern design, and direct access to the beach. Ideal for relaxing and enjoying the finest coastal living.",
+      "price": "$20,000,000",
+      "status": "sale",
+      "area": "4500 sq ft",
+      "location": {
+        "address": "456 Beachfront Avenue",
+        "state": "California",
+        "zip": "90265",
+        "area": "Malibu"
+      },
+      "facilities": [
+        "living room",
+        "swimming pool",
+        "kitchen",
+        "outdoor kitchen",
+        "wine cellar",
+        "home theater"
+      ],
+      "featured_image": "https://example.com/images/malibu-villa.jpg",
+      "image_gallery": [
+        "https://example.com/images/malibu-villa1.jpg",
+        "https://example.com/images/malibu-villa2.jpg",
+        "https://example.com/images/malibu-villa3.jpg"
+      ],
+      "post_author": {
+        "name": "Robert Green",
+        "email": "robertgreen@example.com",
+        "phone": "+1 (321) 987-6543"
+      }
+    },
+    {
+      "id": "4",
+      "estate_title": "Luxury Mountain Resort in Aspen",
+      "category": "Resorts",
+      "description": "This luxurious resort in Aspen combines world-class skiing facilities with ultra-modern accommodations. A perfect destination for both relaxation and adventure.",
+      "price": "$25,000,000",
+      "status": "sale",
+      "area": "6000 sq ft",
+      "location": {
+        "address": "789 Aspen Ridge",
+        "state": "Colorado",
+        "zip": "81611",
+        "area": "Aspen"
+      },
+      "facilities": [
+        "living room",
+        "swimming pool",
+        "kitchen",
+        "ski-in/ski-out access",
+        "spa",
+        "gym"
+      ],
+      "featured_image": "https://example.com/images/aspen-resort.jpg",
+      "image_gallery": [
+        "https://example.com/images/aspen-resort1.jpg",
+        "https://example.com/images/aspen-resort2.jpg",
+        "https://example.com/images/aspen-resort3.jpg"
+      ],
+      "post_author": {
+        "name": "Emily White",
+        "email": "emilywhite@example.com",
+        "phone": "+1 (555) 123-4567"
+      }
+    },
+    {
+      "id": "5",
+      "estate_title": "Elegant Mansion in Beverly Hills",
+      "category": "Mansions",
+      "description": "A grand mansion located in the heart of Beverly Hills, featuring 10 bedrooms, a home theater, a wine cellar, and expansive outdoor spaces for entertaining.",
+      "price": "$45,000,000",
+      "status": "sale",
+      "area": "12000 sq ft",
+      "location": {
+        "address": "1020 Luxury Lane",
+        "state": "California",
+        "zip": "90210",
+        "area": "Beverly Hills"
+      },
+      "facilities": [
+        "living room",
+        "swimming pool",
+        "kitchen",
+        "home theater",
+        "wine cellar",
+        "gym",
+        "tennis court"
+      ],
+      "featured_image": "https://example.com/images/beverly-hills-mansion.jpg",
+      "image_gallery": [
+        "https://example.com/images/beverly-hills-mansion1.jpg",
+        "https://example.com/images/beverly-hills-mansion2.jpg",
+        "https://example.com/images/beverly-hills-mansion3.jpg"
+      ],
+      "post_author": {
+        "name": "James Black",
+        "email": "jamesblack@example.com",
+        "phone": "+1 (444) 333-2222"
+      }
+    }
+  ]
+  
+  
+  
