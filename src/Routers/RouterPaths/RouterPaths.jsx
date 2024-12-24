@@ -8,6 +8,7 @@ import UpdateProfile from "../../pages/Profile/UpdateProfile"
 import SignIn from "../../pages/SignIn/SignIn"
 import SignUp from "../../pages/SignUp/SignUp"
 import DetailsPage from "../../pages/DetailsPage/DetailsPage";
+import PrivateRoute from "./PrivateRoute"
 const RouterPaths = () => {
 
 const routes = createBrowserRouter([
@@ -23,11 +24,12 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/allestates",
+                loader: ()=> fetch('data.json'),
                 element: <AllEstates></AllEstates>
             },
             {
                 path: "/estate/:id",
-                element: <DetailsPage></DetailsPage>
+                element:<PrivateRoute><DetailsPage></DetailsPage></PrivateRoute>
             },
             {
                 path: "/profile",
